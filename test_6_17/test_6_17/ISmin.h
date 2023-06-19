@@ -1,9 +1,8 @@
 #pragma once
 int ICntMin(int* p, int num)
 {
-	int i = 0;
-	int j = 0;
-	int Temp = 0, sum = 0;
+	int i = 0, j = 0;
+	int sum = 0, Temp = 0;
 	for (i = 0; i < num - 1; i++)
 	{
 		for (j = 0; j < num - 1 - i; j++)
@@ -18,9 +17,7 @@ int ICntMin(int* p, int num)
 	}
 
 	for (i = 1; i < 20; i += 2)
-	{
-		if (*(p + i) % 10 == 0)
-			sum += *(p + i);
-	}
+		if (p[i] % 10 == 0)
+			sum += p[i];
 	return sum;
 }
