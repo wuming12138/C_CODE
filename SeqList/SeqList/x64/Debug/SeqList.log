@@ -1,2 +1,50 @@
 ﻿  main.c
+D:\code\C_CODE\SeqList\SeqList\main.c(7,17): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(7,14): warning C4024: “SeqListInit”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(10,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(10,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(11,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(11,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(12,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(12,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(13,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(13,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(14,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(14,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(15,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(15,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(16,21): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(16,18): warning C4024: “SeqListPushBack”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(17,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(17,15): warning C4024: “SeqListPrint”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(18,38): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(18,35): warning C4024: “SeqListFind”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(20,19): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(20,16): warning C4024: “SeqListInsert”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(21,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(21,15): warning C4024: “SeqListPrint”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(23,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(23,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(24,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(24,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(25,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(25,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(26,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(26,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(27,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(27,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(28,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(28,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(29,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(29,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(30,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(30,15): warning C4024: “SeqListErase”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(31,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(31,15): warning C4024: “SeqListPrint”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(33,19): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(33,16): warning C4024: “SeqListInsert”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(34,18): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(34,15): warning C4024: “SeqListPrint”: 形参和实参 1 的类型不同
+D:\code\C_CODE\SeqList\SeqList\main.c(68,20): warning C4047: “函数”:“SeqList *”与“SeqList **”的间接级别不同
+D:\code\C_CODE\SeqList\SeqList\main.c(68,17): warning C4024: “SeqListDestroy”: 形参和实参 1 的类型不同
   SeqList.vcxproj -> D:\code\C_CODE\SeqList\x64\Debug\SeqList.exe

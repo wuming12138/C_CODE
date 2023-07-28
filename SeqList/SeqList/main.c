@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "SeqList.h"
 
-void test1()
+void test1(SeqList* SL)
 {
-	SeqList SL;
+
 	SeqListInit(&SL);
 
 	
@@ -24,8 +24,13 @@ void test1()
 	SeqListErase(&SL, 3);
 	SeqListErase(&SL, 3); 
 	SeqListErase(&SL, 3);
-	SeqListErase(&SL, 3);
-	SeqListErase(&SL, 3);
+	SeqListErase(&SL, 0);
+	SeqListErase(&SL, 0);
+	SeqListErase(&SL, 0);
+	SeqListErase(&SL, 0);
+	SeqListPrint(&SL);
+
+	SeqListInsert(&SL, 0, 55);
 	SeqListPrint(&SL);
 
 
@@ -65,7 +70,9 @@ void test1()
 
 int main()
 {
-	test1();
+
+	SeqList SL;
+	test1(&SL);
 
 
 	return 0;
