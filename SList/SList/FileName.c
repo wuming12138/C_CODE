@@ -1,5 +1,33 @@
 #include "SList.h"
 
+SListNode* reverseList(SListNode* head) {
+	if (head == NULL)
+	{
+		return NULL;
+	}
+	else if (head->next = NULL)
+	{
+		return head;
+	}
+	else
+	{
+		SListNode* n1 = NULL;
+		SListNode* n2 = head;
+		SListNode* n3 = head->next;
+		while (n3)
+		{
+			n2->next = n1;
+
+			n1 = n2;
+			n2 = n3;
+			n3 = n3->next;
+		}
+		n2->next = n1;
+		return n2;
+	}
+
+}
+
 void test1()
 {
 	SListNode* phead = NULL;
@@ -7,49 +35,51 @@ void test1()
 	SListPushFront(&phead, 2);
 	SListPushFront(&phead, 3);
 	SListPushFront(&phead, 4);
-
 	SListPrint(phead);
-
-	SListPopFront(&phead);
+	reverseList(phead);
 	SListPrint(phead);
+	//slistprint(phead);
 
-	SListPopFront(&phead);
-	SListPrint(phead);
+	//slistpopfront(&phead);
+	//slistprint(phead);
 
-	SListPopFront(&phead);
-	SListPrint(phead);
+	//slistpopfront(&phead);
+	//slistprint(phead);
 
-	SListPopFront(&phead);
-	SListPrint(phead);
+	//slistpopfront(&phead);
+	//slistprint(phead);
 
-	SListPushBack(&phead, 1);
-	SListPushBack(&phead, 2);
-	SListPushBack(&phead, 3);
-	SListPushBack(&phead, 4);
-	SListPrint(phead);
+	//slistpopfront(&phead);
+	//slistprint(phead);
+
+	//slistpushback(&phead, 1);
+	//slistpushback(&phead, 2);
+	//slistpushback(&phead, 3);
+	//slistpushback(&phead, 4);
+	//slistprint(phead);
 
 
 
-	SListInsertAfter(SListFind(phead, 3), 50);
-	SListPrint(phead);
+	//slistinsertafter(slistfind(phead, 3), 50);
+	//slistprint(phead);
 
-	SListInsertAfter(phead, 100);
-	SListPrint(phead);
+	//slistinsertafter(phead, 100);
+	//slistprint(phead);
 
-	SListEraseAfter(SListFind(phead, 3));
-	SListPrint(phead);
+	//slisteraseafter(slistfind(phead, 3));
+	//slistprint(phead);
 
-	SListEraseAfter(phead);
-	SListPrint(phead);
+	//slisteraseafter(phead);
+	//slistprint(phead);
 
-	SListEraseAfter(phead);
-	SListPrint(phead);
+	//slisteraseafter(phead);
+	//slistprint(phead);
 
-	SListEraseAfter(phead);
-	SListPrint(phead);
+	//slisteraseafter(phead);
+	//slistprint(phead);
 
-	SListEraseAfter(phead);
-	SListPrint(phead);
+	//slisteraseafter(phead);
+	//slistprint(phead);
 
 
 }
