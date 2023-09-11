@@ -1,0 +1,6 @@
+﻿  heap.c
+D:\code\C_CODE\Heap\Heap\heap.c(7,11): warning C4047: “=”:“HPDataType”与“HPDataType *”的间接级别不同
+D:\code\C_CODE\Heap\Heap\heap.c(5,14): warning C4047: “初始化”:“HPDataType *”与“HPDataType”的间接级别不同
+D:\code\C_CODE\Heap\Heap\heap.c(139,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\code\C_CODE\Heap\Heap\heap.c(163,10): warning C4133: “函数”: 从“char [11]”到“FILE *”的类型不兼容
+  Heap.vcxproj -> D:\code\C_CODE\Heap\x64\Debug\Heap.exe
