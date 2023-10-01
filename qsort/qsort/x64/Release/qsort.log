@@ -1,0 +1,11 @@
+﻿  FileName.c
+D:\code\C_CODE\qsort\qsort\FileName.c(40,2): warning C4013: “QuickSortNonR”未定义；假设外部返回 int
+D:\code\C_CODE\qsort\qsort\FileName.c(48,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Sort.c
+  stack.c
+  正在生成代码
+  16 of 16 functions (100.0%) were compiled.
+    7 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  qsort.vcxproj -> D:\code\C_CODE\qsort\x64\Release\qsort.exe
